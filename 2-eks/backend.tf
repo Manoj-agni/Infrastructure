@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "manu1999-infra-statefile-backup"
     key            = "manu1999/2-eks/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "us-west-2"
     dynamodb_table = "manu1999-terraform-locks"
     encrypt        = true
   }

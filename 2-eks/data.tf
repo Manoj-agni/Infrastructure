@@ -4,6 +4,6 @@ data "terraform_remote_state" "network" {
   config = {
     bucket = "manu1999-infra-statefile-backup"
     key    = "manu1999/1-network/terraform.tfstate"
-    region = "us-east-1"
+    region = "us-west-2"
   }
 }

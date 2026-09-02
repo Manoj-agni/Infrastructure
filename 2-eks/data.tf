@@ -2,8 +2,8 @@ data "terraform_remote_state" "network" {
   backend = "s3"
 
   config = {
-    bucket = "itkannadigaru-infra-statefile-backup"
-    key    = "itkannadigaru/1-network/terraform.tfstate"
-    region = "us-west-2"
+    bucket = "manu1999-infra-statefile-backup"
+    key    = "manu1999/1-network/terraform.tfstate"
+    region = "us-east-1"
   }
 }

@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "manoj-agni"
+  default = "maruti22"
 }
 
 variable "vpc_cidr" {

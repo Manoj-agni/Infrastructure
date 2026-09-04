@@ -3,7 +3,7 @@ terraform {
     bucket         = "maruti22-infra-statefile-backup"
     key            = "maruti22/2-eks/terraform.tfstate"
     region         = "us-west-2"
-    dynamodb_table = "maruti-terraform-locks"
+    dynamodb_table = "maruti22-terraform-locks"
     encrypt        = true
   }
 }

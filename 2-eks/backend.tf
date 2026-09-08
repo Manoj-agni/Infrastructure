@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "itkannadigaru-infra-statefile-backup"
-    key            = "itkannadigaru/2-eks/terraform.tfstate"
+    bucket         = "manojagni-infra-statefile-backup"
+    key            = "manojagni/2-eks/terraform.tfstate"
     region         = "us-west-2"
-    dynamodb_table = "itkannadigaru-terraform-locks"
+    dynamodb_table = "manojagni-terraform-locks"
     encrypt        = true
   }
 }
